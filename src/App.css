@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+.UserBlock{
+  gap: 5px;
+  display: flex;
+}
+.UserBlocks{
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: beige;
+}
+.boardBlock{
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  text-align: center;
+}
+.BoardBlocks{
+  display: flex;
+  gap: 10px;
+}
+.UserPage >.header{
+  display: flex;
+}
+.inputBoard{
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  justify-content: centr;
+  text-align: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.statusTask{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+}
+.tasks{
+  display: flex;
+  gap: 10px;
+}
+.task{
+  border-bottom: 1px solid black;
+  height: 150px;
+ background-color: antiquewhite;
+  text-align: center;
+}
+.h3{
+  text-align: center;
+}
